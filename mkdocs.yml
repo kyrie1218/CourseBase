@@ -116,7 +116,6 @@ plugins:
       lang:
         - en
   - macros
-  - section-index # 点击章节导航到对应的index页
   - bibtex:
       bib_file: "reference.bib"
       csl_file: "chicago-author-date-16th-edition.csl"

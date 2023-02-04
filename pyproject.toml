@@ -7,18 +7,11 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.9"
-# mkdocs-material = "^9.0.11"
-# mkdocs-macros-plugin = "^0.7.0"
-# pypandoc-binary = "^1.10"
-# mkdocs-bibtex = "^2.8.12"
-# mike = "^1.1.2"
-# mkdocs-select-index
 mkdocs-material = "^9.0.11"
 mike = "^1.1.2"
 mkdocs-macros-plugin = "^0.7.0"
 pypandoc-binary = "^1.10"
 mkdocs-bibtex = "^2.8.12"
-mkdocs-section-index = "^0.3.5"
 
 
 
