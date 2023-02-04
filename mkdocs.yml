@@ -116,7 +116,6 @@ plugins:
       lang:
         - en
   - macros
-
       bib_file: "reference.bib"
       csl_file: "chicago-author-date-16th-edition.csl"
       cite_inline: true
