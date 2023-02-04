@@ -1,0 +1,21 @@
+name: ci
+on:
+  push:
+    branches:
+      - master
+      - main
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+      - run: pip install poetry
+      - run: poetry install
+      - run: poetry run mike deploy --push --update-aliases V2023.01
+      - run: poetry run mike set-default latest
+      # - run: jupyter nbconvert --to markdown docs/notebooks/*.ipynb
+      - run: poetry run mkdocs gh-deploy --force
+
