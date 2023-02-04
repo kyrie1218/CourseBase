@@ -15,7 +15,7 @@ jobs:
       - run: pip install poetry
       - run: poetry install
       - run: poetry run mike --push --update-aliases V2023.01 latest
-      - run: poetry run mike set-default latest
+      - run: poetry run mike set-default --push latest
       # - run: jupyter nbconvert --to markdown docs/notebooks/*.ipynb
       - run: poetry run mkdocs gh-deploy --force
 
