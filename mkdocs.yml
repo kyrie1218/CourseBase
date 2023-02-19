@@ -107,7 +107,7 @@ extra:
       
 extra_javascript:
   # 根目录为docs/
-  - src/js/mathjax.js 
+  - https://raw.githubusercontent.com/kyrie1218/config_templates/main/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 # Awesome Plugins
@@ -115,6 +115,7 @@ plugins:
   - search: # 文章搜索
       lang:
         - en
+  - tags
   - macros
   - bibtex:
       bib_file: "reference.bib"
