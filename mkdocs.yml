@@ -119,7 +119,7 @@ plugins:
   - macros
   - bibtex:
       bib_file: "reference.bib"
-      csl_file: "chicago-author-date-16th-edition.csl"
+      csl_file: "https://raw.githubusercontent.com/citation-style-language/styles/master/chicago-author-date-16th-edition.csl"
       cite_inline: true
 
 
